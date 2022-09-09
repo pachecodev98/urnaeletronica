@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes pisca {
+    0% {
+        opacity: 0.2;
+    };
+    50% {
+        opacity: 1;
+    };
+    100% {
+        opacity: 0.2;
+    }
+}
+/* pesquisar a class pisca no CSS */
+.urna {
+    margin-top: 90px;
+    display: flex;
+    background-color: white;
+    width: 1200px;
+    height: 430px;
+    border-radius: 8px;
+    border: 3px solid black;  
+}
+.screen {
+    flex: 2;
+    display: flex;
+    align-items: center;
+/*  text-align: center;     */
+    justify-content: center;
+
+}
+.num-screen {
+    height: 80%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 6px;
+    border: 7px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+.but {
+    flex: 1;
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.num-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.urn-but {
+    flex-wrap: wrap;
+    width: 90px;
+    height: 50px;
+    background-color: black;
+    margin: 5px;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    
+} 
+.urn-but:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.5s linear;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.confirm-but {
+    display: flex;
+
+}
+.confirm-but-col {
+    height: 40px;
+    width: 90px;
+    background-color: rgb(235, 133, 189);
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 18px;
+    border-radius: 5px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.white-but {
+    background-color: rgb(173, 173, 173);
+    color: black;
+}
+.white-but:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.5s linear;
+}
+.red-but {
+    background-color: red;
+    color: white;
+}
+.red-but:hover {
+    background-color: white;
+    color: red;
+    transition: all 0.5s linear;
+}
+.green-but {
+    background-color: rgb(0, 105, 0);
+    color: white;
+    width: 120px;
+}
+.green-but:hover {
+    background-color: white;
+    color: rgb(0, 105, 0);
+    transition: all 0.5s linear;
+}
+.d-1 {
+    flex: 2; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-2 {
+
+    font-size: 15px;
+    border-top: 2px solid grey;
+    margin-top: 5px;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.left {
+    flex: 1;
+    padding-left: 25px;
+}
+.left-1 {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.left-2 {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-3 {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.quad-1 {
+    margin: 2px;
+    display: inline-block;
+    width: 40px;
+    height: 45px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+.pisca {
+    animation-name: pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.left-4 {
+    width: 500px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.righ {
+    width: 90px;
+
+}
+.right-image {
+    border: 1px solid black;
+    background-color: white;
+    object-fit: fill;
+    text-align: center;
+}
+.right-image img {
+    width: 100%;
+}
+.right-image.small {
+    width: 70%;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.aviso--grande {
+    font-size: 40px;
+    font-weight: bold;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna eletrônica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="urna" >
+        <div class="screen">
+            <div class="num-screen">
+                <div class="d-1">
+                    <div class="left">
+                        <div class="left-1">
+                            <span>SEU VOTO PARA</span>
+                        </div>
+                        <div class="left-2">
+                            <span>CARGO</span>
+                        </div>
+                        <div class="left-3">
+                            <div class="quad-1 "></div>
+                            
+                        </div>
+                        <div class="left-4">
+                            NOME: <br>
+                            PARTIDO: <br>
+                            VICE: 
+                        </div>
+
+                    </div>
+                    <div class="right">
+                        <div class="right-image">
+                            <img src="">
+                            PREFEITO
+                        </div>
+                        <div class="right-image small">
+                            <img src="">
+                            VICE-PREFEITO
+                        </div>
+
+                    </div>
+                </div>
+                <div class="d-2">
+                    Aperte a tela:
+                    <br>
+                    CONFIRMA para CONFIRMAR esse voto <br>
+                    CORRIGE para CORRIGIR este voto
+                </div>
+
+            </div>
+
+        </div>
+        <div class="but">
+            <div class="num-buttons">
+                <div class="one urn-but" onclick="clicou('1')">1</div>
+                <div class="two urn-but" onclick="clicou('2')">2</div>
+                <div class="three urn-but" onclick="clicou('3')">3</div>
+                <div class="four urn-but" onclick="clicou('4')">4</div>
+                <div class="five urn-but" onclick="clicou('5')">5</div>
+                <div class="six urn-but" onclick="clicou('6')">6</div>
+                <div class="seven urn-but" onclick="clicou('7')">7</div>
+                <div class="eight urn-but" onclick="clicou('8')">8</div>
+                <div class="nine urn-but" onclick="clicou('9')">9</div>
+                <div class="zero urn-but" onclick="clicou('0')">0</div>
+            </div>
+            <div class="confirm-but">
+                <div class="white-but confirm-but-col" onclick="branco()">BRANCO</div>
+                <div class="red-but confirm-but-col" onclick="corrige()">CORRIGE</div>
+                <div class="green-but confirm-but-col" onclick="confirma()">CONFIRMA</div>
+            </div> 
+        </div>        
+    </div>
+
+    <script src="javascript.js"></script>
+    <script src="etapas.js"></script>
+</body>
+</html>
