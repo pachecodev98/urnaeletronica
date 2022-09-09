@@ -20,4 +20,8 @@ Utilizando manipulação de DOM, Events e Functions específicas do JS, a interf
 Caso os números não coincidam com os dos candidatos, a urna entende como voto nulo.
 Os botões CONFIRMA, BRANCO e CORRIGE, simulam perfeitamente o real, em sua ordem, confirmando o voto(recebe um alert de voto confirmado), seleciona o voto em branco(display atualiza para essa funcionalidade) e limpa a tela de preenchimento(atulizando a interface de número, imagens e nomes).
 
-<h3>Detalhes dos candidatos</h3>
+<h3>Detalhes dos candidatos</h3><br/>
+Os dados dos candidatos são puramente ficticios, e são facilmente ajustados, considerando ser possível adicionar mais objects na array dos candidatos, ou até mesmo via um banco de dados.<br>
+VEREADOR - Felizarda - número 12345; <br />
+PREFEITO - Feltrano Souza / Peter - número 17; <br/>
+PREFEITO - Ciclano Silvano / Joana - número 13 <br />
